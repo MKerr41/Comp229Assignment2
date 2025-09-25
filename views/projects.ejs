@@ -1,0 +1,40 @@
+<%# File: project.ejs
+  Author: Mason Kerr
+  Student ID: 301517873
+  Date: September 25
+  Description: Projects ejs file %>
+
+<%- include('header', { title: "Projects" }) %>
+<%- include('navbar') %>
+
+<div class="page">
+      <h2>Projects</h2>
+
+      <div class="projectCard">
+        <div class="projectImage">
+          <img src="/images/MazeDemo.PNG" alt="maze game" height="200" />
+        </div>
+        <p>
+          Created a maze game in Python with a unique control scheme. Only part of the maze can be seen at a time,
+          and more is revealed by moving the window, as the maze is scaled to the desktop while the window is smaller.
+        </p>
+      </div>    
+
+      <div class="projectCard">
+        <div class="projectImage">
+          <img src="/images/GraphDemo.PNG" alt="probability graph" height="200" />
+        </div>
+        <p>
+          Created a Monte Carlo simulation in R to determine the probability of various events in a digital card game.
+        </p>
+      </div>
+
+      <div class="projectCard">
+        <div class="projectImage">
+          <img src="/images/Portfolio.PNG" alt="portfolio website" height="200" />
+        </div>
+        <p>
+          Designed and implemented a SQL database for a digital storefront. Built queries to handle inventory, sales, and reporting.
+        </p>
+      </div>
+</div>

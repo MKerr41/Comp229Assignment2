@@ -1,0 +1,28 @@
+<%# File: contact.ejs
+  Author: Mason Kerr
+  Student ID: 301517873
+  Date: September 25
+  Description: Contact ejs file %>
+
+<%- include('header', { title: "Contact Me" }) %>
+<%- include('navbar') %>
+
+<div class="page contact-page">
+      <h2>Contact Me</h2>
+      
+      <div class="contact-info">
+        <p>Email: mkerr41@my.centennialcollege.ca</p>
+        <p>Phone: 647-111-1111</p>
+        <p>LinkedIn: linkedin.com/in/mason-kerr/</p>
+    </div>
+
+
+      <form class="contact-form" action="/" method="get">
+        <input type="text" name="firstName" placeholder="First Name" required />
+        <input type="text" name="lastName" placeholder="Last Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="tel" name="phone" placeholder="Contact Number" />
+        <input name="message" placeholder="Your Message" required />
+        <button type="submit">Send Message</button>
+      </form>
+</div>
