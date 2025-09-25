@@ -2,7 +2,7 @@
   "name": "portfolio-express",
   "version": "0.0.0",
   "private": true,
-  "main": "index.js",
+  "main": "bin/www",
   "scripts": {
     "start": "node ./bin/www"
   },
